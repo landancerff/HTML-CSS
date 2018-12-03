@@ -1,0 +1,61 @@
+body{
+    background-color:aliceblue;
+    font-family: 'Noto Sans', sans-serif;
+    z-index:3;
+    padding-left:4px;
+   
+}
+#header-one{
+    text-align:center;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+#header-DayOne{
+    text-decoration:underline;
+    padding-top:10px;
+}
+ .header-class{
+     color:blue;
+ }
+ #long-paragraph{
+    margin-left: 5%;  
+    margin-right:10%;
+}
+ #back-to-top{
+     float:fixed;
+ }
+ #div-menu{
+     margin-left:87%;
+     margin-top:2%;
+     position:fixed;
+     z-index:1;
+     border: black 1px solid;
+     border-radius: 2%;
+     width:10%;
+     text-align:center;
+     background-color:aliceblue;
+     }
+     #html-img{
+            position:relative;
+           float: center;
+           margin-left:45%;
+     }
+     .italic-text{
+         font-style:italic;
+     }
+     #banner{
+         background-color:rgb(210, 212, 214);
+         height:50px;
+         font-size: 16px;
+         z-index:2;
+
+     }
+     #animal-table{
+border: black solid 2px;
+text-align:center;
+
+     }
+     .t-elements{
+         text-align:center;
+     }
+ 
