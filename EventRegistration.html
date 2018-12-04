@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="EventRegistrationStyling.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
 </head>
 
 <body>
@@ -18,18 +18,23 @@
     </div>
     <h1 id="company-name">Event Night</h1>
 
-    <img id="company-logo" src="http://helplinedelmor.org/wp-content/uploads/2013/03/TBTN-2013-logo-300x253.png" width="120px">
+    <img id="company-logo" src="https://media.gettyimages.com/vectors/vector-illustration-of-3d-letter-e-on-white-background-vector-id481482768" width="120px">
 
 
     <div class="event-dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+        <!--button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
             Select Event
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">   
+        </button-->
+       
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
         </div>
-    </div>    
-    <label id="event-title">Your chosen event: <strong>EVENT NAME - DATE</strong></label>
+       
+    </div>
+    <button id="event-dd" type="button">Select Event</button>
+    <label id="event-title">Your chosen event:
+        <strong>EVENT NAME - DATE</strong>
+    </label>
     <pre id="event-desc"> 
         All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
         making this the first true generator on the Internet. 
@@ -38,17 +43,23 @@
     <div id="body">
 
 
-<br>
-       
-            <input id="name" type="text" placeholder="Full name" name="fullname" class="form-control">          
-            <input id="email" type="text" placeholder="Email address" name="email" class="form-control">          
-            <input id="requirements" type="text" placeholder="Special requirements" name="Specialrequirements" class="form-control">
-            <input id="date-picker" type="date" name="date-picker">
-         
-    </div>
-    <div id="footer">
+        <br>
+        <label id="fullname-label">Full name</label>
+        <input id="name" type="text" placeholder="Full name" name="fullname" class="form-control">
+        <label id="email-label">Email Address</label>
+        <input id="email" type="text" placeholder="Email address" name="email" class="form-control">
+        <label id="req-label">Special Requirements</label>
+        <input id="requirements" type="text" placeholder="Special requirements" name="Specialrequirements" class="form-control">
+        <input id="date-picker" type="date" name="date-picker">
 
     </div>
+
+<input type="radio" id="radio1" name="gdpr" vale="notification" >
+<label id="radio1-label">Do you wish to opt in to notifications of future events or deals?</label>
+<img id="city-img" src="https://cdn.skyrisecities.com/forum/attachments/unbuilt-future-png.134423/">
+<input type="radio"id="radio2" value="" > 
+ <label id="radio2-label">Do you grant us permission to store your contact details for future communication?</label>
+    <img id="footer-img" src="https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&h=350">
 </body>
 
 </html>
